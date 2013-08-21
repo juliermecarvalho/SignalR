@@ -1,0 +1,13 @@
+
+Install-Package jQuery
+Uninstall-Package elmah
+Get-Package -updates
+Update-Package
+Update-Package jQuery
+
+Get-Package -ListAvailable -Filter elmah
+Get-Package
+
+
+SignalR
+Install-Package SignalR.AutoFac
